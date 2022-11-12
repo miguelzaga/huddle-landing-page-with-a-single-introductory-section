@@ -2,7 +2,13 @@
 
 .wrapper {
   padding: 38px 36px 40px 35px;
+  margin: auto;
   position: relative;
+
+  @include breakpoint($lg) {
+    padding: 64px 85px 40px 80px;
+    max-width: calc(1275px + 85px + 80px);
+  }
 
   &__bg {
     position: absolute;
@@ -15,6 +21,10 @@
 .header {
   margin-bottom: 70px;
   padding: 0 4px;
+
+  @include breakpoint($lg) {
+    padding: 0;
+  }
 
   &__logo {
     max-width: 120px;

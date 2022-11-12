@@ -9,6 +9,10 @@
 
   &__illustration {
     padding: 0 4px;
+
+    @include breakpoint($lg){
+      padding: 0;
+    }
   }
 
   &__title {

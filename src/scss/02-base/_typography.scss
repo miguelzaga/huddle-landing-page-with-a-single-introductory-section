@@ -1,1 +1,11 @@
 @use "./../01-abstracts/" as *;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: rem(16px);
+  line-height: rem(24px);
+  color: white;
+}

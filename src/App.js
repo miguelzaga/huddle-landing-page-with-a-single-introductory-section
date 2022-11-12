@@ -1,8 +1,7 @@
-import { useState } from "react";
-
+import bgMobile from "/src/images/bg-mobile.svg";
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <header className="header">
         <img src="" className="header__logo" />
       </header>
@@ -33,6 +32,7 @@ function App() {
           </li>
         </ul>
       </footer>
+      <img className="wrapper__bg" src="" />
     </div>
   );
 }

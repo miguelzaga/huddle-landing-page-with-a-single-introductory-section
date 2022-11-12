@@ -1,11 +1,17 @@
 @use "./../01-abstracts/" as *;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
-body {
+body,
+p {
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: rem(16px);
   line-height: rem(24px);
   color: white;
+}
+
+h1,
+button {
+  font-family: "Poppins", sans-serif;
 }

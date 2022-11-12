@@ -1,7 +1,7 @@
 @use "./../01-abstracts/" as *;
 
 .wrapper {
-  padding: 38px 39px 40px 40px;
+  padding: 38px 36px 40px 35px;
   position: relative;
 
   &__bg {
@@ -14,6 +14,7 @@
 
 .header {
   margin-bottom: 70px;
+  padding: 0 4px;
 
   &__logo {
     max-width: 120px;

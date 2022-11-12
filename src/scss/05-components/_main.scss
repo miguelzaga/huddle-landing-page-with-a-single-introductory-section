@@ -1,0 +1,36 @@
+@use "./../01-abstracts/" as *;
+
+.main {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+
+  &__illustration {
+    padding: 0 4px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: rem(24px);
+    line-height: rem(36px);
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+  }
+
+  &__btn {
+    background-color: white;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    border-radius: 20px;
+    border: none;
+    color: $purple;
+    width: 200px;
+    height: 40px;
+    font-size: rem(12px);
+    line-height: rem(18px);
+  }
+}

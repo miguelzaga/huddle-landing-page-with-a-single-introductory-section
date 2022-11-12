@@ -1,5 +1,6 @@
 import bgMobile from "/src/images/bg-mobile.svg";
 import logo from "/src/images/logo.svg";
+import illustrationMockups from "/src/images/illustration-mockups.svg";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <img src={logo} className="header__logo" />
       </header>
       <main className="main">
-        <img src="" className="main__img" />
+        <img src={illustrationMockups} className="main__illustration" />
         <div className="main__container">
           <h1 className="main__title">
             Build The Community Your Fans Will Love{" "}

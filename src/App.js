@@ -1,9 +1,11 @@
 import bgMobile from "/src/images/bg-mobile.svg";
+import logo from "/src/images/logo.svg";
+
 function App() {
   return (
     <div className="wrapper">
       <header className="header">
-        <img src="" className="header__logo" />
+        <img src={logo} className="header__logo" />
       </header>
       <main className="main">
         <img src="" className="main__img" />
@@ -32,7 +34,7 @@ function App() {
           </li>
         </ul>
       </footer>
-      <img className="wrapper__bg" src="" />
+      <img className="wrapper__bg" src={bgMobile} />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+@use "./../01-abstracts/" as *;
+
+.wrapper {
+  padding: 38px 39px 40px 40px;
+  position: relative;
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.header {
+  margin-bottom: 70px;
+
+  &__logo {
+    max-width: 120px;
+  }
+}

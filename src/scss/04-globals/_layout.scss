@@ -20,3 +20,24 @@
     max-width: 120px;
   }
 }
+
+.footer {
+  &__socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    &-li {
+    }
+
+    &-a {
+      color: white;
+      border: 1px solid white;
+      border-radius: 100%;
+      width: 27.5px;
+      height: 28px;
+      display: flex;
+      padding: 7px;
+    }
+  }
+}

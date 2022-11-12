@@ -73,7 +73,7 @@ function App() {
         </ul>
       </footer>
       <picture>
-        <source srcset={bgDesktop} media="(min-width: 1024px)" />
+        <source srcSet={bgDesktop} media="(min-width: 1024px)" />
         <img className="wrapper__bg" src={bgMobile} alt="" />
       </picture>
     </div>

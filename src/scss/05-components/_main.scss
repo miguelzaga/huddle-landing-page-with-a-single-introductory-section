@@ -2,15 +2,23 @@
 
 .main {
   margin-bottom: 64px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 60px;
   text-align: center;
 
+  @include breakpoint($lg) {
+    margin-bottom: 27px;
+    grid-template-columns: 696fr 520fr;
+    gap: 59px;
+    text-align: left;
+  }
+
   &__illustration {
     padding: 0 4px;
+    max-width: 696px;
+    margin: auto;
 
-    @include breakpoint($lg){
+    @include breakpoint($lg) {
       padding: 0;
     }
   }
@@ -20,10 +28,22 @@
     font-size: rem(24px);
     line-height: rem(36px);
     margin-bottom: 16px;
+
+    @include breakpoint($lg) {
+      padding-top: 32px;
+      font-size: rem(40px);
+      line-height: rem(60px);
+      margin-bottom: 24px;
+    }
   }
 
   &__text {
     margin-bottom: 24px;
+
+    @include breakpoint($lg) {
+      font-size: rem(18px);
+      line-height: rem(27px);
+    }
   }
 
   &__btn {
@@ -36,5 +56,13 @@
     height: 40px;
     font-size: rem(12px);
     line-height: rem(18px);
+
+    @include breakpoint($lg) {
+    height: 56px;
+    border-radius: 28px;
+    font-size: rem(18px);
+    line-height: rem(27px);
+
+    }
   }
 }

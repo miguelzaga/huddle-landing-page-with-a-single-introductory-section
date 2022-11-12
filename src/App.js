@@ -1,4 +1,5 @@
 import bgMobile from "/src/images/bg-mobile.svg";
+import bgDesktop from "/src/images/bg-desktop.svg";
 import logo from "/src/images/logo.svg";
 import illustrationMockups from "/src/images/illustration-mockups.svg";
 
@@ -71,7 +72,10 @@ function App() {
           </li>
         </ul>
       </footer>
-      <img className="wrapper__bg" src={bgMobile} />
+      <picture>
+        <source srcset={bgDesktop} media="(min-width: 1024px)" />
+        <img className="wrapper__bg" src={bgMobile} alt="" />
+      </picture>
     </div>
   );
 }

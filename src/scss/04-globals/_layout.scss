@@ -23,11 +23,15 @@
   padding: 0 4px;
 
   @include breakpoint($lg) {
+    margin-bottom: 104px;
     padding: 0;
   }
 
   &__logo {
     max-width: 120px;
+  @include breakpoint($lg) {
+    max-width: 200px;
+  }
   }
 }
 

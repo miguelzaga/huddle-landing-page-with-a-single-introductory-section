@@ -7,10 +7,14 @@ function App() {
   return (
     <div className="wrapper">
       <header className="header">
-        <img src={logo} className="header__logo" />
+        <img src={logo} className="header__logo" alt="huddle logo" />
       </header>
       <main className="main">
-        <img src={illustrationMockups} className="main__illustration" />
+        <img
+          src={illustrationMockups}
+          className="main__illustration"
+          alt="illustration mockup"
+        />
         <div className="main__container">
           <h1 className="main__title">
             Build The Community Your Fans Will Love{" "}

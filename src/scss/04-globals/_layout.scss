@@ -54,6 +54,12 @@
       height: 28px;
       display: flex;
       padding: 7px;
+      transition: 0.2s ease;
+
+      &:hover {
+        color: $magenta;
+        border-color: $magenta;
+      }
 
       @include breakpoint($lg) {
         width: 40px;

@@ -56,6 +56,16 @@
     height: 40px;
     font-size: rem(12px);
     line-height: rem(18px);
+    transition: 0.2s ease;
+
+    &:hover {
+      color: white;
+      background-color: $pink;
+    }
+    
+    &:active {
+      transform: scale(0.9);
+    }
 
     @include breakpoint($lg) {
       height: 56px;

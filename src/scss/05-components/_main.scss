@@ -58,11 +58,11 @@
     line-height: rem(18px);
 
     @include breakpoint($lg) {
-    height: 56px;
-    border-radius: 28px;
-    font-size: rem(18px);
-    line-height: rem(27px);
-
+      height: 56px;
+      border-radius: 28px;
+      font-size: rem(18px);
+      line-height: rem(27px);
+      box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
     }
   }
 }

@@ -29,9 +29,9 @@
 
   &__logo {
     max-width: 120px;
-  @include breakpoint($lg) {
-    max-width: 200px;
-  }
+    @include breakpoint($lg) {
+      max-width: 200px;
+    }
   }
 }
 
@@ -41,7 +41,9 @@
     justify-content: center;
     gap: 10px;
 
-    &-li {
+    @include breakpoint($lg) {
+      justify-content: flex-end;
+      gap: 16px;
     }
 
     &-a {
@@ -52,6 +54,12 @@
       height: 28px;
       display: flex;
       padding: 7px;
+
+      @include breakpoint($lg) {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+      }
     }
   }
 }
